@@ -1,0 +1,7 @@
+<div class="container">
+    <p>Enter email for which you want to reset password</p>
+  <form [formGroup]="reset" (ngSubmit)="onSubmit()">
+    <input type="email" name="email" formControlName="email">
+    <button type="submit">Submit</button>
+  </form>
+</div>

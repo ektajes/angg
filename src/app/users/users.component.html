@@ -1,0 +1,16 @@
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Email</th>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Avatar</th>
+    </tr>
+    <tr *ngFor="let d of dataa.data">
+        <td>{{d.id}}</td>
+        <td>{{d.email}}</td>
+        <td>{{d.first_name}}</td>
+        <td>{{d.last_name}}</td>
+        <td>{{d.avatar}}</td>
+    </tr>
+</table>
